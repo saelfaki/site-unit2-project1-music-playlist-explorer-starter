@@ -3,19 +3,151 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
+
     <title>Music Playlist Explorer</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-    
+    <link href='https://fonts.googleapis.com/css?family=Bubblegum Sans' rel='stylesheet'>
+
     <link rel="stylesheet" href="style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https:cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
+    <body background="assets/img/Untitled design.jpg">
     <header>
         <!-- Your header content here -->
+        <h1>Music Playlist Explorer</h1>
+        <nav>
+            <div class="playlist-title" style="text-align: center;">
+                <a href="featured.html" style="display: inline-block;">Featured Playlist</a>
+                <input type ="text" id = "searchInput" placeholder="Search playlists..."style="text-align: center;">
+              </div>
+        </nav>
     </header>
 
-    <main> 
+    <main>
         <!-- Your main content here -->
+        <section class = "playlist-cards">
+
+            <!-- <section class = "playlist">
+            <img src="assets/img/playlist.png"
+            width="200"
+            height="180">
+            <h3> Playlist Title</h3>
+            <h4>Creator Name</h4>
+
+            <span id="timesClicked">0</span>
+            </section>
+
+            <section class = "playlist">
+            <img src="assets/img/playlist.png"
+            width="200"
+            height="180">
+            <h3>Playlist Title</h3>
+            <h4>Creator Name</h4>
+
+            <span id="timesClicked">0</span>
+            </section>
+
+            <section class = "playlist">
+            <img src="assets/img/playlist.png"
+            width="200"
+            height="180">
+            <h3>Playlist Title</h3>
+            <h4>Creator Name</h4>
+
+            <span id="timesClicked">0</span>
+            </section>
+
+            <section class = "playlist">
+            <img src="assets/img/playlist.png"
+            width="200"
+            height="180">
+            <h3>Playlist Title</h3>
+            <h4>Creator Name</h4>
+
+            <span id="timesClicked">0</span>
+            </section> -->
+
+        </section>
+
+
+
+        <div id="playlistForm">
+            <label for="playlistName">Playlist Name:</label>
+            <input type="text" id="playlistName"  required>
+
+            <label for="playlistCreator">Creator:</label>
+            <input type="text" id="playlistCreator"  required>
+
+            <div id="songsContainer">
+                <div class="songInput">
+                    <label for="songTitle">Song Title:</label>
+                    <input type="text" id="songTitle" required>
+
+                    <label for="songArtist">Artist:</label>
+                    <input type="text" id="songArtist" required>
+
+                    <label for="songDuration">Duration:</label>
+                    <input type="text" id="songDuration" required>
+                </div>
+            </div>
+
+            <button type="button" id="addSongButton">Add Song</button>
+            <button type="submit" id="submit">Create Playlist</button>
+        </div>
+
+
+
+        <div id="playlistModal" class="modal" hidden>
+            <div class="modal-content">
+                <span class="close">&times;</span>
+               <!-- <div class = "titleModal">
+                    <img src="assets/img/playlist.png">
+                    <div>
+                        <h3>Playlist Title</h3>
+                        <h3>Created By</h3>
+                    </div>
+               </div> -->
+               <div class = "tracklist">
+                    <!-- <img id="songsImage" src="assets/img/song.png">
+                    <div class="song-info"> -->
+                        <!-- <p>Song Title</p>
+                        <p>Artist Name</p>
+                        <p>Album Name</p> -->
+                    <!-- </div> -->
+                <!-- </div>
+                <div class = "tracklist"> -->
+                    <!-- <img id="songsImage" src="assets/img/song.png"> -->
+                    <!-- <div class="song-info"> -->
+                        <!-- <p>Song Title</p>
+                        <p>Artist Name</p>
+                        <p>Album Name</p> -->
+                    <!-- </div> -->
+                <!-- </div>
+                <div class = "tracklist"> -->
+                    <!-- <img id="songsImage" src="assets/img/song.png">
+                    <div class="song-info"> -->
+                        <!-- <p>Song Title</p>
+                        <p>Artist Name</p>
+                        <p>Album Name</p> -->
+                    <!-- </div> -->
+                <!-- </div>
+                <div class = "tracklist"> -->
+                    <!-- <img id="songsImage" src="assets/img/song.png">
+                    <div class="song-info"> -->
+                        <!-- <p>Song Title</p>
+                        <p>Artist Name</p>
+                        <p>Album Name</p> -->
+                    <!-- </div> -->
+                <!-- </div> -->
+            </div>
+        </div>
+
+
+
     </main>
 
     <footer>

@@ -1,0 +1,79 @@
+body {
+     font-family:'Bubblegum Sans';
+     font-weight: 300;
+     margin: 0;
+     padding: 0;
+     color: black;
+ }
+
+
+
+.featured-playlist{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 100px;
+}
+
+.song{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    margin-left: 450px;
+    font-size: larger;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+
+main {
+    padding: 20px;
+}
+
+
+.songContainer {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px black;
+    margin-left: 100px;
+}
+
+
+.song img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+footer{
+    background-color:pink;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+header{
+    background-color: pink;
+    margin: 35px;
+    padding: 20px;
+}
+
+
+.song-album-duration {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(95% - 40px);
+    padding: 40;
+  }
+
+
+  .song-album-duration span{
+    margin-left: 90px;
+  }
