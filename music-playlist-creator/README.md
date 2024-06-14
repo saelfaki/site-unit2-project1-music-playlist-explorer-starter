@@ -50,8 +50,7 @@ Estimated time spent: 25 hours spent in total
 
 
 
-<div style="position: relative; padding-bottom: 53.22916666666667%; height: 0;"><iframe src="https://www.loom.com/embed/121b0d2eb5484de0a98965b6ce44c6f6?sid=ca70dc55-b691-46af-899a-766d4b57a29e" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
+https://www.loom.com/embed/121b0d2eb5484de0a98965b6ce44c6f6?sid=ca70dc55-b691-46af-899a-766d4b57a29e
 
 ### Reflection
 
